@@ -1,0 +1,11 @@
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\bin\Debug\InventoryIMSSystemt.exe.config
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\bin\Debug\InventoryIMSSystemt.exe
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\bin\Debug\InventoryIMSSystemt.pdb
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.csproj.AssemblyReference.cache
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.DashBoard.resources
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.Properties.Resources.resources
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.csproj.GenerateResource.cache
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.csproj.CoreCompileInputs.cache
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.exe
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.pdb
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.AddCategory.resources
