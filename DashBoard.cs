@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace InventoryIMSSystemt
 {
@@ -60,7 +61,42 @@ namespace InventoryIMSSystemt
             MessageBox.Show("Saved");
         }
 
+        //loading from txt 
 
+        public List<Handler> loadfromTxt(string filepath)
+        {
+            List<Handler> categories = new List<Handler>();
+            if (File.Exists(filepath))
+            {
+                string[] lines = File.ReadAllLines(filepath);
+                Handler current = null;
+
+                foreach (var line in lines)
+                {
+                    if (string.IsNullOrEmpty(line))
+                    continue;
+                    
+                    //this will return the categories 
+                    if (!line.Contains(","))
+                    {
+                        current = new Handler(line);
+                        categories.Add(current);
+                    }
+                    else if (current != null)
+                    {
+                        string[] dataLine = line.Split(',');
+                        string productName = dataLine[0].Trim();
+                        decimal productPrice = decimal.Parse(dataLine[1].Trim());
+                        int productQuantity = int.Parse(dataLine[2].Trim());
+                        string DateTime = dataLine[3].Trim();
+                        
+                        Product prod = new Product(productName, productPrice, productQuantity, DateTime);
+                        current.Addproduct(prod);
+                    }
+                }
+            }
+            return categories;
+        }
 
 
         //Add new Category
@@ -74,8 +110,6 @@ namespace InventoryIMSSystemt
                 Handler newCategoryname = new Handler(newCategory);
                 categories_handler.Add(newCategoryname);
                 DisplayCategories();
-
-                //dataGridView1.CellClick += DataGridView1_CellClick;
             }
         }
         //Display Product
