@@ -22,6 +22,10 @@ namespace InventoryIMSSystemt
             Price = price;
             ProductDT = productDT;
         }
+        public override string ToString()
+        {
+            return $"{Name},{Quantity},{Price},{ProductDT}";
+        }
     }
 
     public class Handler
@@ -34,6 +38,15 @@ namespace InventoryIMSSystemt
             Name = name;
             products = new List<Product>();
 
+        }
+
+        public void Addproduct(Product product)
+        {
+            products.Add(product);
+        }
+        public override string ToString()
+        {
+            return Name;
         }
         public List<Product> GetProducts()
         {

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|c:\\users\\jusswa\\source\\repos\\inventoryimssystemt\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|c:\\users\\jusswa\\source\\repos\\inventoryimssystemt\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|c:\\users\\jusswa\\source\\repos\\inventoryimssystemt\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|c:\\users\\jusswa\\source\\repos\\inventoryimssystemt\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,43 +50,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "AddProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddProduct.cs",
+              "RelativeDocumentMoniker": "AddProduct.cs",
+              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddProduct.cs",
+              "RelativeToolTip": "AddProduct.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAhwCAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:17:59.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddProduct.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddProduct.cs",
+              "RelativeDocumentMoniker": "AddProduct.cs",
+              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddProduct.cs [Design]",
+              "RelativeToolTip": "AddProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:12:30.382Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DashBoard.cs",
               "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\DashBoard.cs",
               "RelativeDocumentMoniker": "DashBoard.cs",
               "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\DashBoard.cs",
               "RelativeToolTip": "DashBoard.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAADwv0QAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAowCwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T16:05:14.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AddCategory.cs",
               "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs",
               "RelativeDocumentMoniker": "AddCategory.cs",
               "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs",
               "RelativeToolTip": "AddCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCAAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:48:18.367Z"
+              "WhenOpened": "2024-12-03T15:48:18.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AddCategory.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs",
               "RelativeDocumentMoniker": "AddCategory.cs",
               "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs [Design]",
               "RelativeToolTip": "AddCategory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:38:26.985Z"
+              "WhenOpened": "2024-12-03T15:38:26.985Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -90,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "DashBoard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\DashBoard.cs",
               "RelativeDocumentMoniker": "DashBoard.cs",
@@ -102,15 +137,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Handler.cs",
               "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\Handler.cs",
               "RelativeDocumentMoniker": "Handler.cs",
               "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\Handler.cs",
               "RelativeToolTip": "Handler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowDAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:12:06.155Z"
+              "WhenOpened": "2024-12-03T15:12:06.155Z",
+              "EditorCaption": ""
             }
           ]
         }

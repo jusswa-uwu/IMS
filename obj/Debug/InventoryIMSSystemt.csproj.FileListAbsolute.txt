@@ -9,3 +9,4 @@ C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.c
 C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.exe
 C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.pdb
 C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.AddCategory.resources
+C:\Users\Jusswa\source\repos\InventoryIMSSystemt\obj\Debug\InventoryIMSSystemt.AddProduct.resources
