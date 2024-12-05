@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -30,6 +31,15 @@ namespace InventoryIMSSystemt
         {
 
         }
+
+        private int ProductIDgenerator()
+        {
+            Random rand = new Random();
+            int randomIDgenerator = rand.Next(10000000, 99999999);
+            return randomIDgenerator;
+        }
+
+
         //Adding a product button
         private void AddBtn_Click(object sender, EventArgs e)
         {
@@ -37,28 +47,46 @@ namespace InventoryIMSSystemt
             decimal priceresult = 0;
             string chosenCategoryName = categoryComboBox.SelectedItem.ToString();
             Handler chosenCategory = category_handler.FirstOrDefault(c => c.Name == chosenCategoryName);
-            if (decimal.TryParse(priceTextBox.Text, out priceresult) || int.TryParse(quantityTextBox.Text, out quantityresult) || priceTextBox.Text =="" || quantityTextBox.Text == "" || productnameTextBox.Text == "")
+            if (!decimal.TryParse(priceTextBox.Text, out priceresult) || !int.TryParse(quantityTextBox.Text, out quantityresult) || string.IsNullOrWhiteSpace(priceTextBox.Text) || string.IsNullOrWhiteSpace(quantityTextBox.Text) || string.IsNullOrWhiteSpace(productnameTextBox.Text))
             {
-                if (chosenCategory != null && !string.IsNullOrEmpty(productnameTextBox.Text))
-                {
-                    DateTime dt = new DateTime();
-                  
-                    string datetime = dt.ToString("MM-dd-yyy");
-                    Product newProduct = new Product(productnameTextBox.Text, priceresult, quantityresult, datetime);
-                    MessageBox.Show("Added");
-                    productnameTextBox.Text = "";
-                    quantityTextBox.Text = "";
-                    priceTextBox.Text = "";
-                }
-                else
-                {
-                    MessageBox.Show("Invalid input sir");
-                }
+                MessageBox.Show("My deepest regret sire that tis not valid");
+                return;
+            }
+            if (chosenCategory != null && !string.IsNullOrEmpty(productnameTextBox.Text))
+            {
+                int productID = ProductIDgenerator();
+                string datetime = DateTime.Now.ToString("MM-dd-yyyy");
+                Product newProduct = new Product(productID, productnameTextBox.Text, priceresult, quantityresult, datetime);
+                MessageBox.Show("Added");
+                productnameTextBox.Text = "";
+                quantityTextBox.Text = "";
+                priceTextBox.Text = "";
 
+                chosenCategory.Addproduct(newProduct);
+
+                //Save the data
+                DashBoard db = (DashBoard)Application.OpenForms["DashBoard"];
+                db.SaveToTxt("categorydbs.txt", category_handler);
+            }
+            
+            else
+            {
+                MessageBox.Show("Deeym sheesd");
+            }
+        }
+
+        //save changes
+        private void SaveCategoryChanges()
+        {
+            // Access the Dashboard form
+            DashBoard db = Application.OpenForms.OfType<DashBoard>().FirstOrDefault();
+            if (db != null)
+            {
+                db.SaveToTxt(db.filepath, category_handler); // Use the same filepath as in DashBoard
             }
             else
             {
-                MessageBox.Show("My deepest regret sire that tis not valid");
+                MessageBox.Show("Unable to save changes. Dashboard is not accessible.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

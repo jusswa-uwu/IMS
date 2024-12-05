@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dgvCategoryName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
+            this.SwitchAccountBtn = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.AddNewCategoryBtn = new System.Windows.Forms.LinkLabel();
@@ -58,22 +58,22 @@
             // dgvCategoryName
             // 
             this.dgvCategoryName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
-            this.dgvCategoryName.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
+            this.dgvCategoryName.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvCategoryName.FillWeight = 102F;
             this.dgvCategoryName.HeaderText = "Category";
             this.dgvCategoryName.MinimumWidth = 6;
             this.dgvCategoryName.Name = "dgvCategoryName";
             this.dgvCategoryName.ReadOnly = true;
             // 
-            // button1
+            // SwitchAccountBtn
             // 
-            this.button1.Location = new System.Drawing.Point(28, 113);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 35);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.SwitchAccountBtn.Location = new System.Drawing.Point(28, 324);
+            this.SwitchAccountBtn.Name = "SwitchAccountBtn";
+            this.SwitchAccountBtn.Size = new System.Drawing.Size(118, 35);
+            this.SwitchAccountBtn.TabIndex = 1;
+            this.SwitchAccountBtn.Text = "SwitchUser";
+            this.SwitchAccountBtn.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -86,7 +86,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(28, 245);
+            this.button3.Location = new System.Drawing.Point(28, 243);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(118, 35);
             this.button3.TabIndex = 3;
@@ -124,7 +124,7 @@
             this.Controls.Add(this.AddNewCategoryBtn);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.SwitchAccountBtn);
             this.Controls.Add(this.dataGridView1);
             this.Name = "DashBoard";
             this.Text = "DashBoard";
@@ -137,7 +137,7 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button SwitchAccountBtn;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.LinkLabel AddNewCategoryBtn;
