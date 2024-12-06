@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|c:\\users\\jusswa\\source\\repos\\inventoryimssystemt\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,15 +11,15 @@
       "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|c:\\users\\jusswa\\source\\repos\\inventoryimssystemt\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|c:\\users\\jusswa\\source\\repos\\inventoryimssystemt\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|c:\\users\\jusswa\\source\\repos\\inventoryimssystemt\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -58,8 +58,7 @@
               "RelativeToolTip": "AddProduct.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAhwCAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T13:17:59.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T13:17:59.218Z"
             },
             {
               "$type": "Document",
@@ -70,8 +69,7 @@
               "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddProduct.cs [Design]",
               "RelativeToolTip": "AddProduct.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T13:12:30.382Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-04T13:12:30.382Z"
             },
             {
               "$type": "Document",
@@ -81,7 +79,7 @@
               "RelativeDocumentMoniker": "DashBoard.cs",
               "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\DashBoard.cs",
               "RelativeToolTip": "DashBoard.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAowCwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T16:05:14.572Z",
               "EditorCaption": ""
@@ -96,8 +94,7 @@
               "RelativeToolTip": "AddCategory.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwCAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:48:18.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T15:48:18.367Z"
             },
             {
               "$type": "Document",
@@ -108,8 +105,7 @@
               "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs [Design]",
               "RelativeToolTip": "AddCategory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:38:26.985Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-03T15:38:26.985Z"
             },
             {
               "$type": "Document",
@@ -132,8 +128,7 @@
               "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\DashBoard.cs [Design]",
               "RelativeToolTip": "DashBoard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:29:36.83Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-03T15:29:36.83Z"
             },
             {
               "$type": "Document",
@@ -145,8 +140,7 @@
               "RelativeToolTip": "Handler.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAowDAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:12:06.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T15:12:06.155Z"
             }
           ]
         }
