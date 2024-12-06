@@ -17,16 +17,30 @@ namespace InventoryIMSSystemt
         private List<User> users;
         private User currentUser;
         private List<Handler> categories_handler;
-        string filepath = "categorydbs.txt";
+        public string filepath = "dbs.txt";
         public DashBoard()
         {
             InitializeComponent();
+
             rmhdr();
+
             categories_handler = LoadFromdbs(filepath);
 
+            users = LoadUserFromFile(filepath);
+
             dataGridView1.CellContentDoubleClick += dataGridView1_CellContentClick;
+
             DisplayCategories();
         }
+
+
+
+
+
+
+
+
+
         private void rmhdr()
         {
             dataGridView1.AutoResizeColumnHeadersHeight();
@@ -37,19 +51,26 @@ namespace InventoryIMSSystemt
         private void DisplayCategories()
         {
             dataGridView1.Rows.Clear();
-            foreach (Handler category in currentUser.Categories)
+            foreach (Handler category in categories_handler)
             {
                 dataGridView1.Rows.Add(category.Name);
             }
         }
+
+
+
+
+
+
+
+
+
         //Loading User from txt database
         private List<User> LoadUserFromFile(string filepath)
         {
             var loadedUser = new List<User>();
             if (File.Exists(filepath))
             {
-              
-
                 string[] lines = File.ReadAllLines(filepath);
                 User current = null;
                 Handler currentCat = null;
@@ -85,6 +106,12 @@ namespace InventoryIMSSystemt
         }
 
 
+
+
+
+
+
+
         //Login 
         public void Login(string username, string password)
         {
@@ -98,6 +125,13 @@ namespace InventoryIMSSystemt
                 MessageBox.Show("Account not found");
             }
         }
+
+
+
+
+
+
+
 
         //Save users info
         private void SaveUserstoFile(string filepath)
@@ -119,6 +153,11 @@ namespace InventoryIMSSystemt
             }
         }
 
+
+
+
+
+
         //Saving Categories and products
         public void SaveToTxt(string filepath, List<Handler> categ)
         {
@@ -137,6 +176,12 @@ namespace InventoryIMSSystemt
             }
             MessageBox.Show("Saved");
         }
+
+
+
+
+
+
 
         //Loading product from categories
         public List<Handler> LoadFromdbs(string filepath)
@@ -172,10 +217,17 @@ namespace InventoryIMSSystemt
             return cat;
         }
 
+
+
+
+
+
         //Add new Category
         private void AddNewCategoryBtn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            AddCategory addCategory = new AddCategory();
+            var exisintg_category = categories_handler.Select(c => c.Name).ToList();
+
+            AddCategory addCategory = new AddCategory(exisintg_category);
 
             if (addCategory.ShowDialog() == DialogResult.OK)
             {
@@ -183,8 +235,15 @@ namespace InventoryIMSSystemt
                 Handler newCategoryname = new Handler(newCategory);
                 categories_handler.Add(newCategoryname);
                 DisplayCategories();
+                SaveUserstoFile(filepath);
             }
         }
+
+
+
+
+
+
         //Display Product
         private void DisplayProduct(Handler cat)
         {
@@ -210,6 +269,11 @@ namespace InventoryIMSSystemt
 
         
         
+
+
+
+
+
         //ClickHandler for datagrid
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -225,6 +289,13 @@ namespace InventoryIMSSystemt
                 }
             }
         }
+
+
+
+
+
+
+
         //Add new Product
         private void AddProductLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

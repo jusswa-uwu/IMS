@@ -12,10 +12,13 @@ namespace InventoryIMSSystemt
 {
     public partial class AddCategory : Form
     {
+        private readonly List<string> existingCategories;
+
         public string GetCategoryName { get; set; }
-        public AddCategory()
+        public AddCategory(List<string> existing_category)
         {
             InitializeComponent();
+            this.existingCategories = existing_category;
         }
 
         public bool verifier()
@@ -28,18 +31,30 @@ namespace InventoryIMSSystemt
 
         }
 
+        
+
+        //Checking for duplicated user
+        private bool userValidator(string categoryname)
+        {
+            return !string.IsNullOrEmpty(categoryname) && !existingCategories.Contains(categoryname, StringComparer.OrdinalIgnoreCase);
+        }
+
         private void SubmitBtn_Click(object sender, EventArgs e)
         {
-            GetCategoryName = CategoryTxtBox.Text;
-            if (verifier() == true)
+            string getName = CategoryTxtBox.Text;
+            if (userValidator(getName))
             {
-
+                GetCategoryName = getName;
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }
-            else
+            else if (string.IsNullOrWhiteSpace(getName))
             {
                 MessageBox.Show("Empty");
+            }
+            else
+            {
+                MessageBox.Show("User name is already in use");
             }
         }
 

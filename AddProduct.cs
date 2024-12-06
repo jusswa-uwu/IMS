@@ -47,6 +47,9 @@ namespace InventoryIMSSystemt
             decimal priceresult = 0;
             string chosenCategoryName = categoryComboBox.SelectedItem.ToString();
             Handler chosenCategory = category_handler.FirstOrDefault(c => c.Name == chosenCategoryName);
+
+
+
             if (!decimal.TryParse(priceTextBox.Text, out priceresult) || !int.TryParse(quantityTextBox.Text, out quantityresult) || string.IsNullOrWhiteSpace(priceTextBox.Text) || string.IsNullOrWhiteSpace(quantityTextBox.Text) || string.IsNullOrWhiteSpace(productnameTextBox.Text))
             {
                 MessageBox.Show("My deepest regret sire that tis not valid");
@@ -66,7 +69,7 @@ namespace InventoryIMSSystemt
 
                 //Save the data
                 DashBoard db = (DashBoard)Application.OpenForms["DashBoard"];
-                db.SaveToTxt("categorydbs.txt", category_handler);
+                db.SaveToTxt("dbs.txt", category_handler);
             }
             
             else
@@ -82,7 +85,7 @@ namespace InventoryIMSSystemt
             DashBoard db = Application.OpenForms.OfType<DashBoard>().FirstOrDefault();
             if (db != null)
             {
-                db.SaveToTxt(db.filepath, category_handler); // Use the same filepath as in DashBoard
+                db.SaveToTxt(db.filepath, category_handler); 
             }
             else
             {
