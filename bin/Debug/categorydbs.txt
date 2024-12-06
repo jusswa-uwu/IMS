@@ -1,3 +1,5 @@
-wd
-71805758,as,12,2,12-05-2024
+DefaultCategory
+
+d1category
+26887907,shampoo,2,32,12-06-2024
 

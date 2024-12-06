@@ -47,5 +47,10 @@ namespace InventoryIMSSystemt
         {
             this.Close();
         }
+
+        private void AddCategory_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

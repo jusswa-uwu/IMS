@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,21 +11,20 @@ using System.Windows.Forms;
 
 namespace InventoryIMSSystemt
 {
-    public partial class LoginForm : Form
+    public partial class CreateAccount : Form
     {
-        private List<User> users;
-        public LoginForm()
+        public CreateAccount()
         {
             InitializeComponent();
-            users = LoadUserFromFile("dbs.txt");
         }
 
-        private List<User> LoadUserFromFile(string filepath)
+        private List<User> LoadDatafromFile(string filepath)
         {
             var loadedUser = new List<User>();
-            if (System.IO.File.Exists(filepath))
+
+            if (File.Exists(filepath))
             {
-                string[] lines = System.IO.File.ReadAllLines(filepath);
+                string[] lines = File.ReadAllLines(filepath);
                 User current = null;
                 foreach (var line in lines)
                 {
@@ -51,7 +50,7 @@ namespace InventoryIMSSystemt
                         string productDT = productDetails[5].Trim();
 
                         Product product = new Product(productID, productName, productPrice, productQuantity, productDT);
-                        current.Categories.Last().Addproduct(product);
+                        current.Categories.Last().Addproduct(product); 
                     }
                 }
             }
@@ -59,58 +58,47 @@ namespace InventoryIMSSystemt
         }
 
 
-        private void LoginButton_Click(object sender, EventArgs e)
+        private void SaveNewUserToFile(string filepath, User newUser)
         {
-            string username = usernameTextBox.Text;
-            string password = passwordTextBox.Text;
-
-            //Validate the credentials
-            User currentUser = users.FirstOrDefault(u => u.UserName == username && u.Password == password);
-            if (currentUser != null)
+            using (StreamWriter sw = new StreamWriter(filepath, true)) // set Append mode on
             {
-                MessageBox.Show("Login successful!");
-                //Open the Dashboard form
-                DashBoard dashboard = new DashBoard(currentUser);
-                dashboard.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Invalid username or password.");
-            }
-        }   
-
-
-
-
-        private void LoginBtn_Click(object sender, EventArgs e)
-        {
-            string username = usernameTextBox.Text;
-            string password = passwordTextBox.Text;
-
-            User currentUser = users.FirstOrDefault(u => u.UserName == username && u.Password == password);
-            if (currentUser != null)
-            {
-                MessageBox.Show("Login successful!");
-                // Open the Dashboard form
-                DashBoard dashboard = new DashBoard(currentUser);
-                dashboard.Show();
-                this.Hide();
-            }  
-            else
-            {
-                MessageBox.Show("Invalid username or password.");
+                sw.WriteLine($"USER,{newUser.UserName},{newUser.Password}");
+                sw.WriteLine($"CATEGORY,Category1");
             }
         }
 
-        private void createaccountLinkText_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            CreateAccount ca = new CreateAccount();
-            if (ca.ShowDialog() == DialogResult.OK)
-             {
-                users = LoadUserFromFile("dbs.txt");
-             }
 
+        private void submitBtn_Click(object sender, EventArgs e)
+        {
+            string username = usernameTextBox.Text;
+            string password = passwordTextBox.Text;
+
+            // Validate inputs
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Please enter both username and password.");
+                return;
+            }
+
+            // Check if the username already exists
+            var users = LoadDatafromFile("dbs.txt");
+            if (users.Any(u => u.UserName == username))
+            {
+                MessageBox.Show("Username already exists.");
+                return;
+            }
+
+            // Create a new user and save to file
+            if (!(passwordTextBox.Text == confirmpasswordTextBox.Text))
+            {
+                MessageBox.Show("Password mismatch");
+                return;
+            }
+            User newUser = new User(username, password);
+            SaveNewUserToFile("dbs.txt", newUser);
+            MessageBox.Show("Account created successfully!");
+            this.DialogResult = DialogResult.OK; // Close the form and return OK
+            this.Close();
         }
     }
 }

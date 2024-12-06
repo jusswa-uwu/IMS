@@ -81,6 +81,7 @@
             this.Controls.Add(this.SubmitBtn);
             this.Name = "AddCategory";
             this.Text = "AddCategory";
+            this.Load += new System.EventHandler(this.AddCategory_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

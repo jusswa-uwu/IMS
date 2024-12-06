@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|c:\\users\\jusswa\\source\\repos\\inventoryimssystemt\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|c:\\users\\jusswa\\source\\repos\\inventoryimssystemt\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|c:\\users\\jusswa\\source\\repos\\inventoryimssystemt\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\createaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:createaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\createaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:createaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -41,6 +41,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D43F4DBA-F607-4369-83BD-A1361501EA3C}|InventoryIMSSystemt.csproj|solutionrelative:addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,28 +58,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\DashBoard.cs",
+              "RelativeDocumentMoniker": "DashBoard.cs",
+              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\DashBoard.cs",
+              "RelativeToolTip": "DashBoard.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAkwMgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:05:14.572Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm.cs",
-              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\LoginForm.cs",
-              "RelativeToolTip": "LoginForm.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAD4vxsAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AddProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddProduct.cs",
+              "RelativeDocumentMoniker": "AddProduct.cs",
+              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddProduct.cs",
+              "RelativeToolTip": "AddProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:06:48.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T13:17:59.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateAccount.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\CreateAccount.cs",
+              "RelativeDocumentMoniker": "CreateAccount.cs",
+              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\CreateAccount.cs [Design]",
+              "RelativeToolTip": "CreateAccount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:45:04.789Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "CreateAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\CreateAccount.cs",
+              "RelativeDocumentMoniker": "CreateAccount.cs",
+              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\CreateAccount.cs",
+              "RelativeToolTip": "CreateAccount.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAnwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:55:26.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs",
+              "RelativeDocumentMoniker": "AddCategory.cs",
+              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs",
+              "RelativeToolTip": "AddCategory.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwCoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:48:18.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Handler.cs",
+              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\Handler.cs",
+              "RelativeDocumentMoniker": "Handler.cs",
+              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\Handler.cs",
+              "RelativeToolTip": "Handler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:12:06.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
@@ -83,15 +150,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddProduct.cs",
-              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddProduct.cs",
-              "RelativeDocumentMoniker": "AddProduct.cs",
-              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddProduct.cs",
-              "RelativeToolTip": "AddProduct.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAuwFoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwFAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T13:17:59.218Z",
+              "WhenOpened": "2024-12-05T16:06:48.323Z",
               "EditorCaption": ""
             },
             {
@@ -103,46 +170,7 @@
               "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddProduct.cs [Design]",
               "RelativeToolTip": "AddProduct.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T13:12:30.382Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DashBoard.cs",
-              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\DashBoard.cs",
-              "RelativeDocumentMoniker": "DashBoard.cs",
-              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\DashBoard.cs",
-              "RelativeToolTip": "DashBoard.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:05:14.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddCategory.cs",
-              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs",
-              "RelativeDocumentMoniker": "AddCategory.cs",
-              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs",
-              "RelativeToolTip": "AddCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:48:18.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddCategory.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs",
-              "RelativeDocumentMoniker": "AddCategory.cs",
-              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs [Design]",
-              "RelativeToolTip": "AddCategory.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:38:26.985Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-04T13:12:30.382Z"
             },
             {
               "$type": "Document",
@@ -152,34 +180,31 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T15:35:46.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "DashBoard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\DashBoard.cs",
               "RelativeDocumentMoniker": "DashBoard.cs",
               "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\DashBoard.cs [Design]",
               "RelativeToolTip": "DashBoard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:29:36.83Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-03T15:29:36.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Handler.cs",
-              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\Handler.cs",
-              "RelativeDocumentMoniker": "Handler.cs",
-              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\Handler.cs",
-              "RelativeToolTip": "Handler.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGoAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "AddCategory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs",
+              "RelativeDocumentMoniker": "AddCategory.cs",
+              "ToolTip": "C:\\Users\\Jusswa\\source\\repos\\InventoryIMSSystemt\\AddCategory.cs [Design]",
+              "RelativeToolTip": "AddCategory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:12:06.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T15:38:26.985Z"
             }
           ]
         }

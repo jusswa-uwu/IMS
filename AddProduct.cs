@@ -66,7 +66,7 @@ namespace InventoryIMSSystemt
 
                 //Save the data
                 DashBoard db = (DashBoard)Application.OpenForms["DashBoard"];
-                db.SaveToTxt("categorydbs.txt", category_handler);
+                db.SaveToTxt(db.filepath, category_handler);
             }
             
             else
@@ -93,6 +93,11 @@ namespace InventoryIMSSystemt
         private void CancelBtn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void AddProduct_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -16,12 +16,11 @@ namespace InventoryIMSSystemt
       
         public string UserName { get; set; }
         public string Password { get; set; }
-        public List<Handler> Categories { get; set; }
+        public List<Handler> Categories { get; set; } = new List<Handler>();
         public User(string username,string password) 
         { 
             UserName = username;
             Password = password;
-            Categories = new List<Handler>();
         }
 
         public void LoadCategoriesAndProducts(string filepath)
